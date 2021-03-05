@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>counter</title>
+    
+</head>
+<body>
+
+<h1 style="padding: 100px; justify-content: center; display: flex;" id="app">counter</h1>
+<script>
+var num = 0;
+setInterval(function(){
+if(num <9){
+    document.getElementById("app").innerHTML = num;
+    num++;}
+    else{
+        document.getElementById("app").innerHTML = num;
+        num =0;
+
+    }
+
+
+},1000);
+
+    
+</script>
+</body>
+</html> 
